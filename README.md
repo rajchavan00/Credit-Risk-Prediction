@@ -1,4 +1,4 @@
-# German Credit Risk Prediction
+# Credit Risk Prediction
 
 A machine learning project that predicts whether a loan applicant is a **good** or **bad** credit risk using the classic German Credit dataset. The pipeline covers exploratory data analysis, data cleaning, categorical encoding, and training/comparison of four classification algorithms, with the best model serialized for reuse.
 
@@ -114,9 +114,6 @@ print(le_target.inverse_transform(prediction))
 
 The XGBoost cell is included in the notebook but requires the `xgboost` package installed locally to run. All other models (Decision Tree, Random Forest, Extra Trees) are fully tested and verified end-to-end.
 
-## Acknowledgments
-
-Project completed as part of coursework at Parvatibai Genba Moze College of Engineering, Pune, under the guidance of Prof. Indu Jadhav.
 
 ## License
 
